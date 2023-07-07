@@ -1,14 +1,14 @@
-function Homepage() {
-    const randomUrl= "https://picsum.photos/200";
+function Contact() {
     return (
         <div>
             <h1>Welcome to my site</h1>
             <img
-                src={randomUrl}
+                src={require("./assets/images/road.png")}
                 alt="an image"
+                height="200"
             />
         </div>
     )
 }
 
-export default Homepage;
+export default Contact;
